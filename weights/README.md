@@ -9,5 +9,6 @@ The pipeline needs two trained checkpoints (not tracked in git — each > 100 MB
 
 Place both files in this folder before running `track_and_map.py`.
 
-Either train them yourself with the scripts in `train/`, or host the
-checkpoints (GitHub Releases / cloud storage) and download them here.
+You can train them yourself with the scripts in `train/`, or the trained
+checkpoints are **available on request** — open an issue or contact the repo
+owner (see the Contact section in the main [README](../README.md)).

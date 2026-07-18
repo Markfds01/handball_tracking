@@ -59,3 +59,8 @@ weights/                trained checkpoints (not tracked; see README there)
 - The court-keypoint model must be trained on footage similar to your target
   broadcast. If it only detects center-court points (clustered on the midline),
   the homography degenerates — add representative frames to its training set.
+
+## Contact
+
+Trained weights are **available on request** — I'm happy to share them.
+Open an issue on this repo or email <markfds1228@gmail.com>.
