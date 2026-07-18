@@ -61,6 +61,13 @@ weights/                trained checkpoints (not tracked; see README there)
   broadcast. If it only detects center-court points (clustered on the midline),
   the homography degenerates — add representative frames to its training set.
 
+## Acknowledgements
+
+Heavily inspired by **[roboflow/sports](https://github.com/roboflow/sports)** by
+Piotr Skalski (Roboflow) — the tactical-map / homography approach and the
+SigLIP + UMAP + KMeans team classifier follow that project's design, adapted
+here for handball.
+
 ## Contact
 
 Trained weights are **available on request** — I'm happy to share them.
