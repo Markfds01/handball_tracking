@@ -1,17 +1,15 @@
 
 
-https://github.com/user-attachments/assets/b6b59e4b-94b5-4458-bfec-021f93de56fd
-
 # Handball Player Tracking → Tactical Map
 
 Tracking handball players from broadcast video and projecting them onto a
 top-down tactical map, built around a **fine-tuned RF-DETR** detector.
 
-![demo](assets/demo.gif)
+https://github.com/user-attachments/assets/b6b59e4b-94b5-4458-bfec-021f93de56fd
 
 > Demo: Sporting CP vs Veszprém HC. Top — RF-DETR detections + ByteTrack IDs,
 > colored by team. Bottom — players projected onto the court via homography.
-> Full-quality clip: [`assets/demo.mp4`](assets/demo.mp4).
+> ([animated GIF fallback](assets/demo.gif))
 
 ## Pipeline
 
