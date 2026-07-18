@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/b6b59e4b-94b5-4458-bfec-021f93de56fd
+
 # Handball Player Tracking → Tactical Map
 
 Tracking handball players from broadcast video and projecting them onto a
