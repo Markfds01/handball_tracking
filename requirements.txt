@@ -1,0 +1,15 @@
+rfdetr==1.3.0
+ultralytics==8.3.234
+supervision==0.27.0
+torch==2.9.1
+torchvision==0.24.1
+opencv-python
+numpy==2.2.6
+pillow==12.0.0
+tqdm==4.67.1
+# team classifier (unsupervised jersey clustering)
+transformers==4.57.3
+umap-learn==0.5.9
+scikit-learn==1.7.2
+# training only
+roboflow==1.2.11

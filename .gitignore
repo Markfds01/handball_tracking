@@ -1,0 +1,21 @@
+# Model weights (large binaries — download separately, see weights/README.md)
+weights/*.pth
+weights/*.pt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Data / runs / outputs
+data/
+runs/
+handball_runs/
+*.mp4
+!assets/demo.mp4
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
