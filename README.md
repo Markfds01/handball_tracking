@@ -5,11 +5,10 @@
 Tracking handball players from broadcast video and projecting them onto a
 top-down tactical map, built around a **fine-tuned RF-DETR** detector.
 
-https://github.com/user-attachments/assets/b6b59e4b-94b5-4458-bfec-021f93de56fd
 
-> Demo: Sporting CP vs Veszprém HC. Top — RF-DETR detections + ByteTrack IDs,
-> colored by team. Bottom — players projected onto the court via homography.
-> ([animated GIF fallback](assets/demo.gif))
+
+https://github.com/user-attachments/assets/215fc871-aa7b-4c0b-95cd-70c222e52c36
+
 
 ## Pipeline
 
