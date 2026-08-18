@@ -11,5 +11,3 @@ tqdm==4.67.1
 transformers==4.57.3
 umap-learn==0.5.9
 scikit-learn==1.7.2
-# training only
-roboflow==1.2.11

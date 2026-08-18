@@ -118,20 +118,3 @@ def create_court_image(height=1000):
 
     # Return image, scale factor, AND margin
     return img, ppm, MARGIN
-
-def draw_players_on_court(court_img, xy_meters, ppm, margin, color=(255, 0, 0), radius=15):
-    """
-    Draws player dots. Applies margin offset before scaling.
-    """
-    for x, y in xy_meters:
-        if np.isnan(x) or np.isnan(y): continue
-        
-        # Apply margin offset
-        px = int((x + margin) * ppm)
-        py = int((y + margin) * ppm)
-        
-        # Draw dot
-        cv2.circle(court_img, (px, py), radius, color, -1)
-        cv2.circle(court_img, (px, py), radius, (255, 255, 255), 2)
-        
-    return court_img
